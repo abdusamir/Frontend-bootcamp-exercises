@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #959595;
+}
+img {
+    border: 10px solid green;
+}
+h1 {
+    border: 5px dashed brown;
+    width:max-content;
+}
+
+blockquote {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    text-align: center;
+    font-style:italic;
+}
+cite{
+    font-size: 2rem;
+}
+.bigbold{
+    font-weight: bold;
+    font-size: 1.3rem;
+} 
+ul a:link{
+    font-weight: bold;
+    color: brown;
+    font-size: 2rem;
+    text-decoration: none;
+}
+ul a:hover{
+    text-decoration: underline;
+    color: orange;
+    background-color: white;
+}
+a:visited{
+    color: green;
+    font-weight: normal;
+}
+
+#myid{
+    color: purple;
+}

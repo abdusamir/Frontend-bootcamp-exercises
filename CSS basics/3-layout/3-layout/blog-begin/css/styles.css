@@ -1,0 +1,113 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Kavivanar", cursive;
+  font-weight: normal;
+}
+h2 {
+  font-size: 2rem;
+  color: #a51f10;
+  margin: 0;
+}
+a {
+  color: #da0090;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.posted {
+  font-size: 0.8rem;
+  color: #89a611;
+}
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+}
+nav li,
+footer li {
+  display: inline-block;
+  list-style-type: none;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+nav ul {
+  border-top: 1px solid #da0090;
+  border-bottom: 1px solid brown;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.leftheader {
+  flex-basis: 40%;
+  text-align: right;
+  padding-right: 0.5rem;
+}
+.rightheader {
+  flex-basis: 60%;
+  text-align: left;
+  padding-left: 0.5rem;
+  margin-top: 3rem;
+}
+.rightheader h1 {
+  margin: 0;
+  color: #da0090;
+  font-size: 3rem;
+}
+.rightheader p {
+  margin-top: -0.5rem;
+}
+nav a {
+  color: #73352e;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+nav a:hover {
+  background-color: black;
+  color: lightgreen;
+}
+section {
+  display: flex;
+  flex-flow: column nowrap;
+  border-bottom: 1px solid #da0090;
+  margin-bottom: 0.3rem;
+}
+section img {
+  border-radius: 1rem;
+}
+article img {
+  float: left;
+  margin: 0 1rem 1rem 0;
+}
+article::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+article {
+  margin: 2rem 0;
+}
+footer {
+  border-top: 1px solid brown;
+}
